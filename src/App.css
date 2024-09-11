@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mycolor {
+  background-color: rgb(31, 31, 31);
+}
+.app-container {
+  display: flex;
+}
+.content {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px; /* Set the width of the div */
+  /* Set the height of the div */
+  background-color: #ffffff; /* Background color of the div */
+  box-shadow: inset 0px 10px 15px rgba(10, 10, 10, 0.2); /* Inner shadow only on the top */
+}
+.active {
+  background-color: #1c1b1b !important;
+}
+
+/* Center the logo and navbar icons on the left side  */

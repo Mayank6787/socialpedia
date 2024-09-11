@@ -1,0 +1,19 @@
+.mybox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* This should be on the .mybox container */
+}
+
+.minibox {
+  border: 1px solid black;
+  margin: 12px;
+  text-wrap: wrap;
+  border: none;
+  margin: 15px auto; /* Centers the div horizontally */
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* Adds blur to the background */
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
