@@ -89,6 +89,14 @@ const DEFAULT_POST_LIST = [
     userID: "user-91",
     tags: ["vacation", "mumbai", "Enjoy"],
   },
+  {
+    id: "4",
+    title: "Going to holiday ",
+    body: " Finally its summer and i am going to spend with my family  !!",
+    reactions: 144,
+    userID: "user-798",
+    tags: ["vacation", "chennai", "Enjoy"],
+  },
 ];
 
 export default PostListProvider;
